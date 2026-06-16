@@ -1,0 +1,5 @@
+CENÁRIOS DE TESTE - INTEGRAÇÃO DA API DO WHATSAPP BUSINESS
+
+DeveValidarOWebhookDeRecebimentoDeMensagens(ValidarConexaoWebhook())
+DeveRegistrarHistoricoDeInteracaoDeCadaConversa(SalvarHistoricoChat(clienteId, logs))
+DeveVerificarStatusDeEnvioDaMensagem(ConfirmarEnvio(mensagemId))

@@ -1,0 +1,13 @@
+CENÁRIOS DE TESTE - ÉPICO 4: GESTÃO DE ESTOQUE MULTI-LOJA
+
+[Cenário: Controle Multi-Loja]
+DeveCadastrarProdutoVinculadoAUmIDValido(CadastrarProduto(produto))
+DeveExibirQuantidadeDeEstoqueIndividualPorFilial(ConsultarEstoqueLoja(produtoId, lojaId))
+DeveAtualizarEstoqueCentralizadoAposEntradaDeMercadoria(RegistrarEntrada(produtoId, qtd, lojaId))
+
+[Cenário: Regras Críticas de Negócio]
+DevePermitirBaixaDeEstoqueSeQuantidadeForDisponivel(BaixarEstoque(produtoId, qtd, lojaId))
+DeveBloquearVendaERetornarErroSeEstoqueEstiverZerado(BaixarEstoque(produtoId, qtd, lojaId))
+
+[Cenário: Alertas de Reposição]
+DeveEmitirAlertaVisualSeEstoqueAtingirNivelMinimo(VerificarAlertaReposicao(produtoId))

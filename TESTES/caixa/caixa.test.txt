@@ -1,0 +1,15 @@
+CENÁRIOS DE TESTE - ÉPICO 5: SISTEMA DE CAIXA (PDV)
+
+[Cenário: Operações do Frente de Caixa]
+DeveAbrirCaixaComSaldoInicialValido(AbreCaixa(valor))
+DeveRetornarErroAoAbrirCaixaComValorNegativo(AbreCaixa(valor))
+DeveRegistrarVendaFisicaNoBalcao(RegistrarVenda(itens, pagamento))
+DeveCalcularTrocoCorretamente(CalcularTroco(valorPago, valorTotal))
+
+[Cenário: Regras Fiscais e Entrega]
+DeveAplicarRegrasDeFreteParaEntrega(CalcularFrete(distancia, regras))
+DeveEmitirNotaFiscalAposConfirmacaoDePagamento(EmitirNotaFiscal(vendaId))
+
+[Cenário: Fechamento de Caixa]
+DeveRealizarFechamentoDiarioSemInconsistencia(FecharCaixa(valorDinheiroFisico))
+DeveAlertarGerenteSeHouverQuebraOuSobraNoCaixa(FecharCaixa(valorDinheiroFisico))

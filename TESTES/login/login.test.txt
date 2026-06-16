@@ -1,0 +1,14 @@
+CENÁRIOS DE TESTE - ÉPICO 1: INFRAESTRUTURA E CONTROLE DE ACESSO
+
+[Cenário: Autenticação de Usuário]
+DevePermitirLoginComCredenciaisValidas(AutenticarUsuario(email, senha))
+DeveRecusarAcessoComSenhaIncorreta(AutenticarUsuario(email, senha))
+DeveRetornarErroAoTentarLoginComEmailNaoCadastrado(AutenticarUsuario(email, senha))
+
+[Cenário: Controle de Níveis de Permissões - RBAC]
+DevePermitirAcessoAoDashboardApenasParaPerfilAdministrador(ValidarPermissao(usuarioId, "DASHBOARD"))
+DeveBloquearOperadorDeCaixaDeEditarEstoqueGeral(ValidarPermissao(usuarioId, "EDITAR_ESTOQUE"))
+DevePermitirQueGerenteDeLojaAltereApenasOEstoqueDaSuaFilial(ValidarPermissao(usuarioId, "EDITAR_ESTOQUE_LOCAL"))
+
+[Cenário: Sincronização e Multi-Acesso]
+DevePermitirMúltiplosAdministradoresSimultâneosSemConflito(ControlarSessoesAtivas())

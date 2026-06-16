@@ -1,0 +1,15 @@
+CENÁRIOS DE TESTE - ÉPICO 3: CATÁLOGO E VENDAS WHATSAPP
+
+[Cenário: Fluxo de Atendimento Automatizado]
+DeveEnviarMenuInicialAoReceberSaudacao(ProcessarMensagem("Oi"))
+DeveExibirOpcoesValidasNoMenuDoChatbot(EnviarMenu())
+DeveRepetirOMenuCasoOClienteDigiteUmaOpcaoInvalida(ProcessarMensagem("OpcaoInvalida"))
+
+[Cenário: Consulta de Catálogo Integrado]
+DeveRetornarCatalogoDeProdutosDisponiveis(ConsultarCatalogoBot())
+DeveOcultarProdutosDoCatalogoSeEstoqueGeralForZerado(ConsultarCatalogoBot())
+DeveSugerirProdutosBaseadoNoHistoricoDoCliente(GerarSugestoes(clienteId))
+
+[Cenário: Transições e Transações]
+DeveEncaminharConversaParaAtendenteHumanoQuandoSolicitado(AcionarSuporteHumano())
+DeveGerarLinkOuPixParaPagamentoDiretoNoChat(GerarPagamentoPedido(pedidoId))

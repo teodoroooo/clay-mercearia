@@ -1,0 +1,5 @@
+CENÁRIOS DE TESTE - ÉPICO 6: RELATÓRIOS E INDICADORES
+
+DeveGerarRelatorioDeVendasPorVendedor(ConsultarVendasPorFuncionario(vendedorId))
+DeveAtualizarDashboardGerencialEmTempoRealAposCadaVenda(AtualizarIndicadores())
+DeveConsolidarFaturamentoGlobalSomandoAs5Filiais(CalcularFaturamentoTotal())

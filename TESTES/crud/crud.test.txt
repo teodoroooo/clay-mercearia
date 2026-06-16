@@ -1,0 +1,15 @@
+CENÁRIOS DE TESTE - OPERAÇÕES CRUD DO SISTEMA
+
+DeveCriarNovoRegistroComDadosValidos(CriarRegistro(registro))
+DeveRetornarErroAoCriarRegistroComCamposVazios(CriarRegistro(registro))
+
+DeveListarTodosOsRegistros(ListarRegistros())
+
+DeveBuscarRegistroPorId(BuscarRegistroPorId(id))
+DeveRetornarErroAoBuscarRegistroInexistente(BuscarRegistroPorId(id))
+
+DeveAtualizarRegistroExistente(AtualizarRegistro(registro))
+DeveRetornarErroAoAtualizarRegistroInexistente(AtualizarRegistro(registro))
+
+DeveExcluirRegistroExistente(ExcluirRegistro(id))
+DeveRetornarErroAoExcluirRegistroInexistente(ExcluirRegistro(id))
