@@ -1,0 +1,5 @@
+REGRA DE NEGÓCIO: FLUXO DE RESPOSTAS DO BOT DO WHATSAPP
+
+- Se o cliente enviar uma mensagem inicial ("Oi", "Olá"), o serviço monta o menu numérico de opções estruturado.
+- Se o cliente selecionar a opção "1" (Catálogo), o serviço busca na base ativa quais itens importados da China possuem estoque acima de zero e monta uma mensagem limpa com os preços.
+- Se o cliente solicitar falar com humano, o bot suspende o atendimento automático daquela sessão e notifica a equipe de suporte.

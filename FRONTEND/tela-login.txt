@@ -1,0 +1,6 @@
+DESCRIÇÃO VISUAL E INTERAÇÕES: TELA DE LOGIN
+
+- Apresenta um formulário limpo com campos de Entrada para: E-mail e Senha.
+- Contém um botão "Entrar".
+- Ao clicar em entrar com dados incorretos, exibe uma mensagem em vermelho na tela: "Credenciais inválidas!".
+- Se o login for de um "Operador de Caixa", esconde automaticamente os menus de "Relatórios Financeiros" e "Edição de Estoque".

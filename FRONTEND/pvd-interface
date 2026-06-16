@@ -1,0 +1,6 @@
+DESCRIÇÃO VISUAL E INTERAÇÕES: FRENTE DE CAIXA (PDV)
+
+- Interface otimizada para digitação rápida ou leitor de código de barras.
+- Exibe o carrinho de compras do cliente do balcão em tempo real conforme os itens são adicionados.
+- Campo de fechamento de venda calcula o valor total e exibe o troco correto ao digitar o valor em dinheiro entregue pelo cliente.
+- No encerramento do dia, apresenta a tela de "Fechamento de Caixa", onde o funcionário digita o saldo em dinheiro da gaveta física para conferência do gerente.

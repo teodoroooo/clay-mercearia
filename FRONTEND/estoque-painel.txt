@@ -1,0 +1,6 @@
+DESCRIÇÃO VISUAL E INTERAÇÕES: PAINEL DE GESTÃO DE ESTOQUE
+
+- Exibe uma tabela listando todos os produtos importados da China.
+- A tabela possui 5 colunas adicionais representando cada uma das 5 Filiais do Zé da Mercearia.
+- Produtos que estão com estoque zerado em alguma das filiais ganham uma linha com fundo amarelo de aviso.
+- Produtos que estão abaixo do estoque mínimo configurado ficam com o texto da quantidade destacado em vermelho.
