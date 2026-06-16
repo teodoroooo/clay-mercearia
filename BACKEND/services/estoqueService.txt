@@ -1,0 +1,5 @@
+REGRA DE NEGÓCIO: SERVIÇO DE PROCESSAMENTO DE ESTOQUE
+
+- Ao receber uma solicitação de venda (via PDV ou WhatsApp), o serviço localiza o produto no estoque central.
+- Regra de Bloqueio por Estoque Zerado: Se a quantidade em estoque na filial informada for menor do que a solicitada, o serviço cancela a transação e retorna uma exceção.
+- Regra de Alerta de Estoque Baixo: Se após a baixa, o item ficar com 3 unidades ou menos, o serviço dispara um sinalizador visual para o painel de compras.

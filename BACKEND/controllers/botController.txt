@@ -1,0 +1,1 @@
+- Escuta as mensagens recebidas da API do WhatsApp e redireciona para o serviço de processamento de respostas do Bot.

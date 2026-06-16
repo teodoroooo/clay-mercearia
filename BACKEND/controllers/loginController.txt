@@ -1,0 +1,1 @@
+- Processa as tentativas de autenticação de usuários e valida o nível de permissão (RBAC) retornado antes de conceder acesso aos recursos.

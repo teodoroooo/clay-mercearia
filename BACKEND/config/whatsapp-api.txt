@@ -1,0 +1,4 @@
+COMPORTAMENTO ESPERADO: INTEGRAÇÃO COM WHATSAPP BUSINESS API
+
+- Deve armazenar os tokens de autenticação e rotas da API oficial do WhatsApp Business.
+- Deve configurar a rota do Webhook para escutar requisições do tipo POST vindas dos servidores do WhatsApp.

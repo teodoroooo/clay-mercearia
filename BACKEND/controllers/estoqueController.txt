@@ -1,0 +1,1 @@
+- Recebe requisições HTTP para registrar entradas e baixas do estoque, chamando as regras do serviço de estoque e devolvendo respostas em JSON com o status da operação.

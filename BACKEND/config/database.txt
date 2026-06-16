@@ -1,0 +1,5 @@
+COMPORTAMENTO ESPERADO: CONFIGURAÇÃO DO BANCO DE DADOS
+
+- O arquivo deve ler as variáveis de ambiente (.env) contendo as credenciais de acesso em nuvem.
+- Deve tentar se conectar ao servidor do banco de dados centralizado que unifica as 5 mercearias.
+- Caso a conexão caia, o sistema deve disparar 3 tentativas automáticas de reconexão antes de emitir um erro crítico.
