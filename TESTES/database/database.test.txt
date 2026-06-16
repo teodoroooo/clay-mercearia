@@ -1,0 +1,6 @@
+CENÁRIOS DE TESTE - INTEGRIDADE DO BANCO DE DADOS CENTRAL
+
+DeveEstabelecerConexaoComOBancoDeDadosEmNuvem(ConectarBanco())
+DeveGarantirPersistenciaDosDadosAposInclusao(ValidarGravacao(tabela, dados))
+DeveManterIntegridadeReferencialAoDeletarRegistroComChaveEstrangeira(ValidarIntegridade())
+DeveTratarRequisicoesSimultaneasSemBloquearOBanco(TestarConcorrencia())
