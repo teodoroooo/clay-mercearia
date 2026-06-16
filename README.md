@@ -37,8 +37,8 @@ Todos os módulos sincronizam dados via **servidor central**.
 
 - **Metodologia:** Scrum
 - **Duração da Sprint:** 1 aula
-- **Quadro Kanban:** [https://trello.com/b/bsF4g3RJ/jorge-clay-mercearia-sistema-integrado]
-- **Protótipo:** [link do Figma aqui]
+- **Quadro Kanban:** [Jorge & Clay Mercearia – Sistema Integrado](https://trello.com/b/bsF4g3RJ/jorge-clay-mercearia-sistema-integrado)
+- **Protótipos:** [Ver protótipos](./docs/protótipos/)
 
 ## 🚀 Como rodar o projeto
 
