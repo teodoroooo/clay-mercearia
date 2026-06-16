@@ -1,10 +1,10 @@
-# Jorbs Clay Mercearia — Sistema Integrado
+# Jorge Clay Mercearia — Sistema Integrado
 
 > Projeto acadêmico de desenvolvimento de software com metodologia Scrum.
 
 ## 📋 Sobre o projeto
 
-Sistema integrado para a **Jorbs Clay Mercearia**, uma rede de 5 lojas que vende produtos importados da China e deseja expandir para vendas online via WhatsApp, mantendo o controle centralizado de vendas, estoque e operações de caixa físico.
+Sistema integrado para a **Jorge Clay Mercearia**, uma rede de 5 lojas que vende produtos importados da China e deseja expandir para vendas online via WhatsApp, mantendo o controle centralizado de vendas, estoque e operações de caixa físico.
 
 ### Módulos previstos
 
@@ -19,10 +19,10 @@ Todos os módulos sincronizam dados via **servidor central**.
 | Nome | Papel |
 |------|-------|
 | Gabriel Teodoro | Scrum Master |
-| [Nome] | Product Owner |
-| [Nome] | Desenvolvedor |
-| [Nome] | Desenvolvedor |
-| [Nome] | Desenvolvedor |
+| Pedro Claudino | Product Owner |
+| Manuela Castro | Desenvolvedor |
+| Gabrielly Neu | Desenvolvedor |
+| Alícia Dias | Desenvolvedor |
 
 ## 🛠️ Stack tecnológica
 
@@ -37,7 +37,7 @@ Todos os módulos sincronizam dados via **servidor central**.
 
 - **Metodologia:** Scrum
 - **Duração da Sprint:** 1 aula
-- **Quadro Kanban:** [link do Trello aqui]
+- **Quadro Kanban:** [https://trello.com/b/bsF4g3RJ/jorge-clay-mercearia-sistema-integrado]
 - **Protótipo:** [link do Figma aqui]
 
 ## 🚀 Como rodar o projeto
